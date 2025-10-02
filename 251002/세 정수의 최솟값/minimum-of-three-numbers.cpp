@@ -8,8 +8,8 @@ int main() {
     cin >> a >> b >> c;
 
     int min = 0;
-    if (a > b && b > c)         min = c;
-    else if (a > b && b < c)    min = b;
+    if ((a > b && b > c) || (a < b && a > c))         min = c;  // abc, bac
+    else if ((a > b && b < c) || (a < c && a > b))    min = b;  // acb, cab
     else                        min = a;
 
     cout << min;
