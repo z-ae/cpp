@@ -6,7 +6,7 @@ int main() {
     int a_m = 0, a_e = 0;
     int b_m = 0, b_e = 0;
 
-    cin >> a_m, a_e, b_m, b_e;
+    cin >> a_m >> a_e >> b_m >> b_e;
 
     if (a_m > b_m){
         cout << "A";
