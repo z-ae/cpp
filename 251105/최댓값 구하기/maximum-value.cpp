@@ -8,9 +8,9 @@ int main() {
 
     int max = 0;
 
-    if ((a > b) && (a > c))
+    if ((a >= b) && (a >= c))
         max = a;
-    else if ((b > a) && (b > c))
+    else if ((b >= a) && (b >= c))
         max = b;
     else
         max = c;
