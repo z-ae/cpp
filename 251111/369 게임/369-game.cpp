@@ -16,14 +16,13 @@ int main() {
 
         if (num % 3 == 0)
             cout << 0 << " ";
-        else cout << num << " ";
-        
-        if (num / 10 > 0){
+        else if (num / 10 > 0){
             if      ((num % 10 != 0) && ((num % 10) % 3 == 0))   cout << 0<< " ";
             else if ((num / 10) % 3 == 0)   cout << 0 << " ";
             else                            cout << num << " ";
 
         }
+        else    cout << num << " ";
 
 
         num++;
