@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+void PrintRect (int n, int m){
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < m; j++){
+            cout << "1";
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+    // Please write your code here.
+    int n = 0, m = 0;
+
+    cin >> n >> m;
+
+    PrintRect(n, m);
+    
+    return 0;
+}
