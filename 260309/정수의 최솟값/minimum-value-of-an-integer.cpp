@@ -11,7 +11,9 @@ int Min(int a, int b, int c){
             min = b;
     }
     else {
-        if (c >= a)
+        if (a >= c)
+            min = c;
+        else
             min = a;
     } 
 
